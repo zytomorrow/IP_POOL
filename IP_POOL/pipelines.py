@@ -27,7 +27,7 @@ class IpPoolPipeline(object):
         return item
 
     def __init__(self):
-        db_path = ".\\IP_POOL.db"
+        db_path = ".\\IP_POOLa.db"
         if not os.path.exists(db_path):
             self.db = sqlite3.connect(db_path)
             self.__createTable()
